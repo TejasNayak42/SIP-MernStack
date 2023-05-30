@@ -1,0 +1,23 @@
+Web Development:
+Process in which we create website and web applications.
+
+Website:
+ Static Pages:
+ Content will not change when we reload the page.
+ Ex-wikipedia
+
+Web Applications:
+Dyanmic pages:
+    Content will change when reload the page.
+    ex:Insta
+
+Full Stack Web Development:
+Frontend -HTML,CSS,JavaScript,Libraries & frameworks
+Backend-Node JS,ExpressJS
+DataBase - SQL & NoSQL(MongoDB)
+
+Client---(req)-->Server--->DataBase--->Server-----(res)--->Client
+
+Bootsrap:
+Bootsrap is CSS framework(Frontend framework) used for creating responsive website and applications.
+                    
