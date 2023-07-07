@@ -20,4 +20,22 @@ Client---(req)-->Server--->DataBase--->Server-----(res)--->Client
 
 Bootsrap:
 Bootsrap is CSS framework(Frontend framework) used for creating responsive website and applications.
-                    
+
+Navbar:
+Navigation Bar is used to navigate across the website .
+#Basic Navbar:
+With bootstrap a navigation bar can be extendd or collapse,depending on the screen size.
+A standard navbar is created with .navbarclass, followed by a responsive collapsing class .
+.navbar-expand-xxl|xl|lg|md|sm
+
+1)To add links inside the navbar ,use either an <ul> or <div>tag with class .navbar-nav
+2)then add <li> tag with .nav-item class followed by an <a> tag with a class .nav-link .
+
+#Vertical Navbar: Remove the .navbar-expand class to create a navigation bar that will alwyas be vertical 
+
+#Centered Navbar: justify-content-center class to center to navigation bar.
+
+#active/disabled state: add the .active class to an <a> tag to highlight the current link or disabled class to indicate that link is unclickable
+
+#GLogo: .navbar-brand class is used to highlight the brand/logo of uur page.
+        when using navbar-brand class with images boostsrap will automatically style the image to fit the navbar verticlly
