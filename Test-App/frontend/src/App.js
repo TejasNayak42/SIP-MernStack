@@ -1,5 +1,5 @@
 import NavBar from './Components/NavBar';
-import Home from './Components/Home';
+// import Home from './Components/Home';
 // import React, { useRef } from 'react';
 // import { BrowserRouter } from "react-router-dom";
 
@@ -9,6 +9,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Form from './Components/Form';
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
     <>
     <BrowserRouter>
     <NavBar/>
+    <Form/>
     <Routes>
-      <Route path='/' element={<Home/>}/>
+      {/* <Route path='/' element={<Home/>}/> */}
 
     </Routes>
     </BrowserRouter>
