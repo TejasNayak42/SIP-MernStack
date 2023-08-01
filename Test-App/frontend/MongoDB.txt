@@ -1,0 +1,21 @@
+MongoDb is a NOSQL Database which in which we store data in form of document
+
+To show Database: show Database
+
+To create and switch to that Database :use databasename
+To create collection: db.createCollection("CollectionName")
+To show collection: show collections
+
+To read Data
+1)db.Masculine.find() =>gives all the data under Masculine
+2}db.Feminine.find({Grade:"F-"}) =>Searches data by grade and shows all the datas realted to it
+3)db.Masculine.findOne({Grade:"S+"}) =>Searches data by grade and gives the first one if many similiar ones r there
+
+To Update Documents
+1) db.Masculine.updateOne({Grade:"S+"},{$set:{Grade:"S++"}})
+2}db.CollectionName.updateMany()
+3}db.CollectionName.replaceOne()
+
+To  Delete Documents
+1}db.CollectionName.deleteOne()
+2)db.CollectionName.deleteMany()
