@@ -1,2 +1,9 @@
 NodeJs
 Runtime env of JS that allows Js code to exceute outside the browser
+
+For inititalization of NOde project: -npm init -y
+
+Nodemon
+-restart then server
+-nodemon index or npx nodemon index
+
